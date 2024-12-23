@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="youngdavoly.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page</title>
+    <meta name="google-site-verification" content="lezTCt5nWLKiJN13ci8_bIR80ZcQOGAfpOqgxV31VIQ" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <marquee behavior="" direction="left"><h1 class="john" style="font-size: 80px;"> <font face="Montserrat">YOUNG DAVOLY SOUNDS</font></h1></marquee>
+        </div>
+        <style></style>
+        <script>
+            function filterSearch() {
+                var input, filter, ul, li, i, txtValue;
+                input = document.getElementById('search');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("results");
+                li = ul.getElementsByTagName('li');
+
+                for (i = 0; i < li.length; i++) {
+                    txtValue = li[i].textContent || li[i].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <div class="music">
+            <div class="search">
+                <input type="text" onkeyup="filterSearch()" id="search" placeholder="search for music.....">
+            </div>
+            <ul id="results">
+                <div class="boxes">
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                </div>
+                <div class="boxe">
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                    <li>
+                        <div class="box"></div>
+                        <p> <font face="Montserrat">Prayer Answered</font></p>
+                        <audio controls>
+                            <source src="Prayer answered .mp3" type="audio/mp3">
+                        </audio>
+                        <div><a href="Prayer answered .mp3" download class="download">Download</a></div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="power">
+        <div style="margin-right: 5px;"><font face="Montserrat">ASTOR & LAYCON WEB DESIGN</font></div>
+        <div style="margin-right: 5px;"><font face="Montserrat">Copyright &copy;2024. Powered by Astor & Laycon</font></div>
+    </div>
+</body>
+</html>

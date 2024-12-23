@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(4, 9, 48);
+    color: white;
+    padding-top: 20px;
+}
+input{
+    margin-left: 1470px;
+    border-radius: 20px;
+    width: 210px;
+    margin-top: 10px;
+    height: 30px;
+}
+.music{
+    height: 1000px;
+    background-image: url('ba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.boxes{
+    display: flex;
+    margin-top: 40px;
+    gap: 60px;
+    justify-content: center;
+}
+p{
+    color: white ;
+}
+.boxe{
+    display: flex;
+    margin-top: 80px;
+    gap: 60px;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 60px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url('shogo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p{
+    margin-left: 80px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    input{
+        margin-left: 340px;
+    }
+    .boxes{
+        display: block;
+    }
+    .boxe{
+        display: block;
+    }
+    .music{
+        width: 100%;
+        height: 100%;
+        gap: 15px;
+    }
+    .power{
+        width: 100%;
+    }
+    li{
+        padding: 20px;
+    }
+}
+.power{
+    height: 50px;
+    background-color: black;
+    justify-items: end;
+    color: white;
+    padding-top: 5px;
+}   
+.download{
+    color: white;
+    font-family: Montserrat;
+    margin-left: 100px;
+    margin-bottom: -30px;
+    text-decoration: none;
+}
